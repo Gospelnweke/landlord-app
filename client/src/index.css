@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:wght@400;700&display=swap');
 @import 'tailwindcss';
 :root {
   /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -14,15 +15,13 @@
   -moz-osx-font-smoothing: grayscale; */
 }
 
-/* body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-} */
+body {
+  font-family: 'Mona Sans', sans-serif;
+}
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.kik {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #060318;
 }
